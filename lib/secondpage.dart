@@ -5,8 +5,8 @@ class CurrencyConverterMaterialPage extends StatelessWidget{
   @override
   Widget build(BuildContext context){
     return Scaffold(
-      body : Center(
-        child : Text("hello world"),
+      body : Column(
+        children : [Text("0"),]
       ),
     );
   }

@@ -9,7 +9,11 @@ class MyApp extends StatelessWidget{
   @override
   Widget build (BuildContext context){
     return MaterialApp(
-     home:Text( 'hello, world'), );
+     home:Scaffold(
+      body: Center(
+        child: Text( 'hello, world'),
+    ),
+    ), );
     
   }
 }

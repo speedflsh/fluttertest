@@ -15,7 +15,17 @@ class CurrencyConverterMaterialPage extends StatelessWidget{
             fontSize: 55,
             fontWeight: FontWeight.bold,
             color: Color.fromARGB(255, 255, 255, 255),
-          ))
+          ),
+          ),
+          TextField(
+            style:TextStyle(
+              color: Colors.orange),
+            decoration: InputDecoration(
+              label: Text('please enter number',
+              style: TextStyle(
+                color: Colors.white),
+              ),),),
+        
         ],)
     ));
 
